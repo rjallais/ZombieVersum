@@ -15,7 +15,7 @@ public class Main {
         DataVisualizerBean dv = new DataVisualizerBean();
 
         dv.plotTable("zombie-health-new-cases20.csv");
-        dv.plotGraph("zombie-health-new-cases20.csv");
+        dv.plotGraph("zombie-health-new-cases20.csv", "red_eye");
         String[][] table = dv.sortTable("zombie-health-new-cases20.csv");
         table = dv.addPatient(newPatient, table);
 
