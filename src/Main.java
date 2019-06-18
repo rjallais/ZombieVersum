@@ -1,6 +1,5 @@
 import JavaBeans.DataVisualizerBean;
 import org.encog.examples.guide.classification.*;
-import tech.tablesaw.api.Table;
 
 import java.util.ArrayList;
 
