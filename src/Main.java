@@ -17,7 +17,7 @@ public class Main {
         dv.plotTable("zombie-health-spreadsheet-ml-training.csv");
         dv.plotGraph("zombie-health-spreadsheet-ml-training.csv");
         String[][] table = dv.sortTable("zombie-health-spreadsheet-ml-training.csv");
-        dv.addPatient(newPatient, table);
+        table = dv.addPatient(newPatient, table);
 
         /**********************************************************************************/
         String[] prob = {"paralysis", "member_loss", "trembling_finger", "history_bacteria"};
